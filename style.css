@@ -38,6 +38,10 @@ body{
     font-size:1.8em;
 }
 
+.content label{
+    font-size:1.6em;
+}
+
 .content button{
     padding:10px;
     border:none;
