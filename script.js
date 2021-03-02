@@ -1,6 +1,7 @@
 (function(win,doc){
     "use strict";
     let btn = doc.querySelector("#btn");
+    
 
     function convert(){
         let bin = doc.querySelector("#binary").value;

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html,body{
+    height:100%;
+}
+
 body{
     background-color:#1976d2 ;
 }
@@ -11,7 +15,7 @@ body{
 .content{
     border:2px solid #000;
     border-radius:8px;
-    width:50%;
+    width:70%;
     position:absolute;
     left:50%;
     top:50%;
@@ -43,16 +47,16 @@ body{
 }
 
 .content button{
-    padding:10px;
+    padding:20px;
     border:none;
     border-radius:6px;
     background-color:#1976d2;
     color:#fff;
     cursor:pointer;
     width:40%;
-    height:50px;
     font-size:1.4em;
     font-weight:bold;
+    word-wrap:break-word;
 }
 
 .content button:hover{
